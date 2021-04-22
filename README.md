@@ -10,3 +10,5 @@ Buy the plugin from the Shop.
 Join the Discord server's!
 - AquaDevs: https://discord.gg/5pxFZHmsC7
 - Levania: https://discord.gg/5pxFZHmsC7
+
+ ![Image1](https://cdn.discordapp.com/attachments/508242454173057025/834536170368794624/image0.png)
