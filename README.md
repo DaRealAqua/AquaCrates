@@ -3,11 +3,11 @@ My Socials:
 - Twitter: @DaRealAqua_
 - YouTube: DaRealAqua
 
-Buy the plugin from the Shop.
+Buy the plugin from the shop.
 - Shop: https://shoptly.com/aquadevs
 - Video: https://youtu.be/y27t9ny1kJs
 
-Join the Discord server's!
+Join my discord servers!
 - AquaDevs: https://discord.gg/5pxFZHmsC7
 - Levania: https://discord.gg/5pxFZHmsC7
 
