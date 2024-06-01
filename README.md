@@ -1,17 +1,112 @@
-Updates:
-- PocketMine 4.0.0
+# AquaCrates
+### Description
+Create your own crates and customize them. 
 
-My Socials:
-- Discord: @DaRealAqua#9324
-- Twitter: @DaRealAqua_
-- YouTube: DaRealAqua
+### Features
+- configurable config / crates
+- customizable messages
+- support worlds
+- items
+- commands
+- floatingText
 
-Buy the plugin from the shop.
-- Shop: https://shoptly.com/aquadevs
-- Video: https://youtu.be/y27t9ny1kJs
+### Installation
+To install AquaCrates, simply follow these steps:
 
-Join my discord servers!
-- AquaDevs: https://discord.gg/5pxFZHmsC7
-- Levania: https://discord.gg/5pxFZHmsC7
+Download the latest version of AquaCrates from the Releases page on GitHub / poggit.
+Place the downloaded .phar file into your PocketMine-MP plugins directory.
+Start your PocketMine-MP server and enjoy.
 
- ![Image1](https://cdn.discordapp.com/attachments/508242454173057025/834536170368794624/image0.png)
+### Configuration
+AquaCrates can be configured by editing the ``config.yml`` file in the plugin's directory or using the command /crate. Here you can see what can be configured:
+# Config
+```php
+# AquaCrates Configuration
+# Author: @DaRealAqua
+# Twitter: @DaRealAqua_
+
+# Time when Text's refresh.
+# Recommended: '3' seconds!
+update-floatingText: 3
+
+# Prefix.
+prefix: "§8[§bAquaCrates§8]§r§7"
+
+# Settings
+settings:
+  # Crate Messages
+  # Popup => false | Message => true
+  message: true
+
+# View Reward when you open a Crate.
+show-text: "{color}{reward}"
+```
+# Crates
+```php
+# Enchantments ID List:
+# Protection => 0
+# Fire Protection => 1
+# Feather Falling => 2
+# Blast Protection => 3
+# Projectile Protection => 4
+# Thorns => 5
+# Respiration => 6
+# Aqua Affinity => 8
+# Sharpness => 9
+# Smite => 10
+# Bane of Arthropods => 11
+# Knockback => 12
+# Fire Aspect => 13
+# Looting => 14
+# Efficiency => 15
+# Silk Touch => 16
+# Unbreaking => 17
+# Fortune => 18
+# Power => 19
+# Punch => 20
+# Flame => 21
+# Infinity => 22
+
+# Reward Types: item, command or random
+reward: random
+
+# Registered Crate's List.
+# Create a new 'CRATE' using the example above.
+crates:
+  Aqua:
+    color: "§b"
+    display: "{color}Aqua Crate{line}§7You have {color}{key} §7Orion keys"
+    world:
+      world: "world"
+      x: 1
+      y: 5
+      z: 1
+    items:
+      - id: 222
+        count: 64
+      - id: 255
+        count: 64
+      - id: 276
+        count: 1
+      - id: 276
+        count: 1
+        customName: "§r§l§6Orion Sword§r"
+        lore: "§7This is the§6 most powerful §7sword!"
+        enchantId: 9
+        enchantLevel: 2
+    commands:
+      - name: "§6x64 Stone"
+        cmd: "give {player} 1 64"
+      - name: "§ax64 Grass"
+        cmd: "give {player} 2 64"
+      - name: "§bx1 Diamond Sword"
+        cmd: "give {player} 276 1"
+```
+### Contributing
+If you find a bug or want to help improve the plugin, join my discord server and make a suggestion.
+
+### License
+AquaCrates is released under the Apache license. See the LICENSE file for more information.
+
+### Support
+If you need help with AquaCrates, you can contact me on my discord server [AquaDevs](https://discord.gg/VFFzjceP6E) or create an issue on the GitHub repository.
