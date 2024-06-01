@@ -1,6 +1,6 @@
 # AquaCrates
 ### Description
-Create your own crates and customize them. 
+AquaCrates is a plugin that allows users create unlimited crates. Create crates in-game or by using the command /crate create <name>.
 
 ### Features
 - configurable config / crates
