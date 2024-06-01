@@ -1,0 +1,10 @@
+name: AquaCrates
+main: crate\darealaqua\Main
+author: DaRealAqua
+version: 0.0.2
+api: 5.0.0
+
+permissions:
+  crate.command:
+    description: "AquaCrates system permission."
+    default: op

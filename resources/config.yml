@@ -1,0 +1,19 @@
+# AquaCrates Configuration
+# Author: @DaRealAqua
+# Twitter: @DaRealAqua_
+
+# Time when Text's refresh.
+# Recommended: '3' seconds!
+update-floatingText: 3
+
+# Prefix.
+prefix: "§8[§bAquaCrates§8]§r§7"
+
+# Settings
+settings:
+  # Crate Messages
+  # Popup => false | Message => true
+  message: true
+
+# View Reward when you open a Crate.
+show-text: "{color}{reward}"

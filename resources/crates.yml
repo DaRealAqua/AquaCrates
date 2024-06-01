@@ -1,0 +1,116 @@
+# Create crates by using this example:
+#crates:
+#  Aqua:
+#    color: "§b"
+#    display: "{color}Aqua Crate{line}§7You have {color}{key} §7Orion keys"
+#    world:
+#      world: "world"
+#      x: 1
+#      y: 5
+#      z: 1
+#    items:
+#      - id: 17
+#        count: 64
+#      - id: 255
+#        count: 64
+#      - id: 276
+#        count: 1
+#      - id: 276
+#        count: 1
+#        customName: "§r§l§bAqua Sword§r"
+#        lore: "§7This is the§b most powerful §7sword!"
+#        enchantId: 9
+#        enchantLevel: 5
+#    commands:
+#      - name: "§6x64 Stone"
+#        cmd: "give {player} 1 64"
+#      - name: "§ax64 Grass"
+#        cmd: "give {player} 2 64"
+#
+#
+# Enchantments ID List:
+# Protection => 0
+# Fire Protection => 1
+# Feather Falling => 2
+# Blast Protection => 3
+# Projectile Protection => 4
+# Thorns => 5
+# Respiration => 6
+# Aqua Affinity => 8
+# Sharpness => 9
+# Smite => 10
+# Bane of Arthropods => 11
+# Knockback => 12
+# Fire Aspect => 13
+# Looting => 14
+# Efficiency => 15
+# Silk Touch => 16
+# Unbreaking => 17
+# Fortune => 18
+# Power => 19
+# Punch => 20
+# Flame => 21
+# Infinity => 22
+
+# Reward Types: item, command or random
+reward: random
+
+# Registered Crate's List.
+# Create a new 'CRATE' using the example above.
+crates:
+  Aqua:
+    color: "§b"
+    display: "{color}Aqua Crate{line}§7You have {color}{key} §7Orion keys"
+    world:
+      world: "world"
+      x: 1
+      y: 5
+      z: 1
+    items:
+      - id: 222
+        count: 64
+      - id: 255
+        count: 64
+      - id: 276
+        count: 1
+      - id: 276
+        count: 1
+        customName: "§r§l§6Orion Sword§r"
+        lore: "§7This is the§6 most powerful §7sword!"
+        enchantId: 9
+        enchantLevel: 2
+    commands:
+      - name: "§6x64 Stone"
+        cmd: "give {player} 1 64"
+      - name: "§ax64 Grass"
+        cmd: "give {player} 2 64"
+      - name: "§bx1 Diamond Sword"
+        cmd: "give {player} 276 1"
+  Orion:
+    color: "§6"
+    display: "{color}Orion Crate{line}§7You have {color}{key} §7Orion keys"
+    world:
+      world: "world"
+      x: 1
+      y: 5
+      z: 1
+    items:
+      - id: 222
+        count: 64
+      - id: 255
+        count: 64
+      - id: 276
+        count: 1
+      - id: 276
+        count: 1
+        customName: "§r§l§6Orion Sword§r"
+        lore: "§7This is the§6 most powerful §7sword!"
+        enchantId: 9
+        enchantLevel: 2
+    commands:
+      - name: "§6x64 Stone"
+        cmd: "give {player} 1 64"
+      - name: "§ax64 Grass"
+        cmd: "give {player} 2 64"
+      - name: "§bx1 Diamond Sword"
+        cmd: "give {player} 276 1"
