@@ -6,6 +6,7 @@ AquaCrates is a plugin that allows users create unlimited crates. Create crates 
 - configurable config / crates
 - customizable messages
 - support worlds
+- rewards
 - items
 - commands
 - floatingText
