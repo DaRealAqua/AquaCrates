@@ -11,12 +11,13 @@ use crate\darealaqua\CrateManager;
 use crate\darealaqua\Main;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
+use pocketmine\plugin\PluginOwned;
 use pocketmine\utils\TextFormat as C;
 use pocketmine\player\Player;
 use pocketmine\Server;
 use JsonException;
 
-class CrateCommand extends Command
+class CrateCommand extends Command implements PluginOwned
 {
     /** @var string */
     private const
@@ -25,15 +26,15 @@ class CrateCommand extends Command
         SET_KEY_USAGE = "/crate set|replace <crate>",
         CREATE_CRATE_USAGE = "/crate create <name>",
         KEY_ALL_USAGE = "/crate keyall <crate> [amount]",
-        PERMISSION = "crate.command";
+        PERMISSION = "aquacrates.command";
 
     /**
      * CrateCommand constructor.
      * @param Main $plugin
      */
     public function __construct(private Main $plugin){
-        parent::__construct("crate", "Crates system.", "/crate help");
         $this->setPermission(self::PERMISSION);
+        $this->setDescription("Crates system");
     }
 
     /**
