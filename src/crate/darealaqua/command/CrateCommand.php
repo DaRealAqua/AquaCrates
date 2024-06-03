@@ -34,7 +34,7 @@ class CrateCommand extends Command implements PluginOwned
      */
     public function __construct(private Main $plugin){
         $this->setPermission(self::PERMISSION);
-        $this->setDescription("Crates system");
+        $this->setDescription("Crates system.");
     }
 
     /**
