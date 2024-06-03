@@ -5,6 +5,6 @@ version: 0.0.2
 api: 5.0.0
 
 permissions:
-  crate.command:
+  aquacrates.command:
     description: "AquaCrates system permission."
     default: op
