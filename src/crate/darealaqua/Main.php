@@ -38,7 +38,7 @@ class Main extends PluginBase
     {
         self::setInstance($this);
         $this->crateManager = new CrateManager($this);
-        $this->getServer()->getCommandMap()->register($this->getDescription()->getName(), new CrateCommand($this));
+        $this->getServer()->getCommandMap()->register($this->getDescription()->getName(), new CrateCommand($this), "aquacrates");
         $this->getServer()->getPluginManager()->registerEvents(new EventListener($this), $this);
         $this->config();
         $this->world();
